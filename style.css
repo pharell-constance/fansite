@@ -32,8 +32,36 @@ body{
 }
 
 h1{
-    color: white;
+    color: rgb(61, 0, 0);
     font-family: "resident";
     letter-spacing: 0.2rem;
+    font-size: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    border-top: rgb(26, 0, 0) solid;
+}
+
+button{
+    width: 150px;
+    height: 55px;
+    background-color:rgb(50, 0, 0) ;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 10px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(43, 0, 0);
 }
 
