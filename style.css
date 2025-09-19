@@ -112,3 +112,10 @@ ease, opacity .3s;
     left: 13px;
     transform-origin: left top;
 }
+
+.text{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
